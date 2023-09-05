@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: rgb(212, 207, 207);">
+   <div  >
+        <button id="fetchData" onclick="element()">CLick Here For data</button>
+
+        <table id="parts" border="1.5px" style="border-collapse: collapse;">
+            <template id="temp">
+            <thead>
+                <tr style="background-color: rgb(20, 20, 20);color:white;">
+
+                <th id="head" style="width: 2px;">UserId</th> 
+                    <th style="width: 2px;height:1px;">ID</th>
+                    <th style="width: 30%;">Title</th>
+                    <th style="width: 60%;">Data</th>
+                </tr>
+            </thead>
+        </template>
+            <tbody id="tableBody" style="width: 2vh;"></tbody>
+        </table>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

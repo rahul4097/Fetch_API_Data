@@ -1,0 +1,28 @@
+button{
+    margin: 17px auto;
+    width:30%;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center; 
+    margin-left: 35%;
+    padding: 20px auto;
+    background-color: darkgoldenrod;
+    cursor: pointer;
+    border-radius: 20px;
+}
+ table{
+    border-color: white;
+    border-width:1px;
+ }
+ th{
+    margin: 10px;
+ }
+ td{
+   font-size: 11px;
+   padding: 1px;
+   background-color: lightgoldenrodyellow;
+ }
+ button:hover{
+   background-color: lightskyblue;
+ }
