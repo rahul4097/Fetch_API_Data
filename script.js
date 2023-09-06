@@ -1,11 +1,14 @@
-function element(){
+var hold=true;
+document.getElementById('fetchData').addEventListener('click',()=>{
+    if(hold){
 var elements=document.getElementById("temp").content;
 
 var data=document.importNode(elements,true);
 
 document.getElementById('parts').appendChild(data);
+hold=false;
 }
-
+})
 function getData(){
     document.getElementById("fetchData").addEventListener('click',()=>{
     var link="https://jsonplaceholder.typicode.com/posts";
